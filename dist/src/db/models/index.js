@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MODELS = void 0;
+const Calendar_model_1 = require("./Calendar.model");
+const FareAttributes_model_1 = require("./FareAttributes.model");
+const FareRules_model_1 = require("./FareRules.model");
+const Stops_model_1 = require("./Stops.model");
+const StopTimes_model_1 = require("./StopTimes.model");
+const Trips_model_1 = require("./Trips.model");
+const Agency_model_1 = require("./Agency.model");
+const Subscribers_model_1 = require("./Subscribers.model");
+exports.MODELS = [Calendar_model_1.Calendar, FareAttributes_model_1.FareAttributes, FareRules_model_1.FareRules, Stops_model_1.Stops, StopTimes_model_1.StopTimes, Trips_model_1.Trips, Subscribers_model_1.Subscribers, Agency_model_1.Agency];
